@@ -4,9 +4,14 @@
 console.log('script ok, JNASCK2');
 
 // Creo array vuoto
-let arrayDispari[];
+let arrayDispari=[];
 
 // Creo ciclo for che chieda per 6 vollte un numero all'utente
 for(let i=0; i<5; i++){
-    let numero=prompt('inseriisci un numero');
+    let numero=prompt('inserisci un numero');
+    // Determino se il numero è pari
+    if(numero % 2 != 0){
+        arrayDispari.push(numero);
+        console.log(arrayDispari);
+    }
 }

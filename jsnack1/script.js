@@ -15,9 +15,8 @@ while(!permesso){
     for (let i=0; i<listaInvitatiFesta.length; i++){
         if (nomePersona === listaInvitatiFesta[i]){
             console.log('Evvai!! Sei invitato alla festa del grande Gatsby');
-        }else{
-            console.log('Mi spiace ma non sei invitato!');
-        }
-
     }
+    /*}else{
+        console.log('Mi spiace ma non sei invitato!');
+    }*/
 }
