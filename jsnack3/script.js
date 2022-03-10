@@ -5,3 +5,11 @@ console.log('script ok, JNASCK3');
 
 // Creo variabile con numero dato dall'utente
 let numero=parseInt(prompt('inserisci un numero di 4 cifre'));
+let somma=0;
+
+// ciclo che somma le ciifre del numero inserito dall'utente
+while(numero){
+    somma += numero % 10;
+    numero =Math.floor(numero / 10);
+}
+console.log(somma);
